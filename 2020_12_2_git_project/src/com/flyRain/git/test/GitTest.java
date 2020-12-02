@@ -18,4 +18,8 @@ public class GitTest {
         System.out.println("git test update");
 
     }
+    public  void test1(){
+        int i = 0;
+        i += 10;
+    }
 }
