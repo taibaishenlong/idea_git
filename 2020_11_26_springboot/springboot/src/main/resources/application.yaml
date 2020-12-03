@@ -1,0 +1,42 @@
+#配置普通属性
+name: zhangsan
+
+
+#配置对象属性
+person:
+  name: zhangsan
+  age: 18
+  addr: beijing
+
+#配置jim
+jim:
+  name: kuk
+  age: 30
+  sex: male
+
+#配置对象属性进行行内配置
+kuku: {name: lishi,age: 18,addr: tianjing }
+
+#map配置
+map:
+  city: wuhan
+  english: geeti
+  sex: male
+#list集合配置：
+city:
+  - wuhan
+  - beijing
+  - shanghai
+#list或set集合的行内形式
+city2: [wuhan,beijing,shanghai,jilin]
+
+#list集合配置加载对象
+list:
+  - name: zhangsan
+    age: 19
+    addr: chongqing
+  - name: lishi
+    age: 20
+    addr: guangzhou
+
+
